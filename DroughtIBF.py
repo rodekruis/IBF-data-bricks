@@ -54,6 +54,10 @@
 
 # COMMAND ----------
 
+#test
+
+# COMMAND ----------
+
 # MAGIC %r
 # MAGIC ##stack files per year
 # MAGIC #CHIRPS_stack <- do.call("stack",lapply(CHIRPS_files,FUN=function(CHIRPS_files){raster(paste0(CHIRPS_dir,CHIRPS_files))}))
